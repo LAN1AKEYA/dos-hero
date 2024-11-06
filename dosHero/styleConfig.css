@@ -1,0 +1,10 @@
+.consoller {
+    --bg: #000000;
+    --color: #ffffffcf;
+    --consoleHeight: 100vh;
+    --consoleWidth: 100%;
+    --font: 'url(fonts/dos.ttf)';
+    --filterColor: #000000;
+    --noiseOpacityMin: 0.07;
+    --noiseOpacityMax: 0.1;
+}

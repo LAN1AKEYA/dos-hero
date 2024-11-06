@@ -1,0 +1,63 @@
+* {
+    font-family: 'Truetypewriter';
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+body {
+    overflow: hidden;
+    margin: 0;
+}
+
+main {
+    background-color: #000000;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.login {
+    font-size: 40px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.login input {
+    font-size: 30px;
+    transition: 0.3s;
+    box-sizing: border-box;
+    display: block;
+    border-radius: 0;
+    width: 20vw;
+    margin: 5px;
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    text-align: center;
+}
+
+.login input:focus {
+    outline: 0;
+}
+
+.login input[type='submit']:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+@font-face {
+    font-family: 'dos';
+    src: url(fonts/dos.ttf);
+}
+
+@font-face {
+    font-family: 'Truetypewriter';
+    src: url(../dosHero/source/fonts/Truetypewriter.ttf);
+}
